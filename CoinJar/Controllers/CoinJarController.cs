@@ -34,7 +34,7 @@ namespace CoinJarApi.Controllers
 
             _coinJar.AddCoin(coin);
 
-            return Ok();
+            return Ok(coin);
         }
 
         [HttpDelete]
